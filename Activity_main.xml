@@ -1,0 +1,26 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:app="http://schemas.android.com/apk/res-auto"     xmlns:tools="http://schemas.android.com/tools"     android:layout_width="match_parent"     android:layout_height="match_parent"     tools:context=".MainActivity"> 
+ 
+ 
+    <TextView 
+        android:layout_width="wrap_content"         android:layout_height="wrap_content"         android:layout_alignParentStart="true"         android:layout_alignParentTop="true" 
+
+        android:layout_centerHorizontal="true"         android:layout_marginStart="144dp"         android:layout_marginTop="36dp"         android:gravity="center"         android:text="@string/sign_uptxt"         android:textColor="@color/black"         android:textSize="30sp" /> 
+ 
+    <EditText 
+        android:id="@+id/username"         android:layout_width="246dp"         android:layout_height="wrap_content"         android:layout_alignParentStart="true"         android:layout_alignParentTop="true"         android:layout_centerHorizontal="true"         android:layout_marginStart="75dp"         android:layout_marginTop="146dp"         android:hint="@string/enter_username"         android:textAlignment="center"         android:textColor="@color/black"         android:textColorHint="@color/black" /> 
+ 
+    <EditText 
+        android:id="@+id/password1"         android:layout_width="249dp"         android:layout_height="wrap_content"         android:layout_alignParentStart="true"         android:layout_alignParentTop="true"         android:layout_centerHorizontal="true"         android:layout_marginStart="70dp"         android:layout_marginTop="219dp"         android:hint="@string/enter_password"         android:textAlignment="center"         android:textColor="@color/black"         android:textColorHint="@color/black" /> 
+ 
+    <EditText 
+        android:id="@+id/password2"         android:layout_width="255dp"         android:layout_height="wrap_content"         android:layout_alignParentStart="true"         android:layout_alignParentTop="true"         android:layout_centerInParent="true"         android:layout_marginStart="69dp"         android:layout_marginTop="296dp"         android:hint="@string/reenter_password"         android:textAlignment="center"         android:textColor="@color/black"         android:textColorHint="@color/black" /> 
+ 
+    <Button 
+        android:id="@+id/SignUpBtn"         android:layout_width="wrap_content"         android:layout_height="wrap_content"         android:layout_alignParentStart="true"         android:layout_alignParentBottom="true"         android:layout_centerVertical="true" 
+        android:layout_marginStart="96dp"         android:layout_marginBottom="252dp"         android:text="@string/sign_up"         android:textColor="@color/black" /> 
+     <Button 
+        android:id="@+id/LoginInBtn"         android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"         android:layout_alignParentEnd="true"         android:layout_alignParentBottom="true"         android:layout_marginEnd="92dp"         android:layout_marginBottom="254dp"         android:text="@string/login"         android:textColor="@color/black" /> 
+ 
+</RelativeLayout> 
